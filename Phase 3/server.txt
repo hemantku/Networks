@@ -1,0 +1,5 @@
+peer1 pass1
+peer2 pass2
+peer3 pass3
+peer4 pass4
+mirror passm

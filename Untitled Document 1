@@ -1,0 +1,10 @@
+vineghlinux@vineghlinux-Lenovo-G500:~/Desktop/Phase 2$ make
+gcc -o peer_1 peer_1.c 
+peer_1.c: In function ‘main’:
+peer_1.c:249:4: warning: passing argument 1 of ‘htons’ makes integer from pointer without a cast [enabled by default]
+    my_addr.sin_port = htons(PEER_1_PORT);
+    ^
+In file included from peer_1.c:10:0:
+/usr/include/netinet/in.h:369:17: note: expected ‘uint16_t’ but argument is of type ‘char *’
+ extern uint16_t htons (uint16_t __hostshort)
+
